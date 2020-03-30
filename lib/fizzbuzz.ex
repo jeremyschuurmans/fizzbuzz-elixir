@@ -1,18 +1,7 @@
 defmodule Fizzbuzz do
-  @moduledoc """
-  Documentation for `Fizzbuzz`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Fizzbuzz.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def fizz(number) do
+    if rem(number, 3) === 0 do
+      "Fizz"
+    end
   end
 end

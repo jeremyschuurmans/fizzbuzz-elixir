@@ -34,4 +34,4 @@ $ iex(4)>
 
 ```
 
-2. Exit by pressing <btn>CTRL</btn> + <btn>C</btn> twice.
+2. Exit by pressing CONTROL + C twice.

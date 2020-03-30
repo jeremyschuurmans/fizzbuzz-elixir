@@ -11,3 +11,5 @@ defmodule Fizzbuzz do
     end
   end
 end
+
+IO.puts Fizzbuzz.fizz(3)

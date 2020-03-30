@@ -14,7 +14,7 @@ If you'd like to run it:
 
 Alternatively, and probably preferably, you can run it in Interactive Elixir by:
 
-1. Cloning this repository to your machine, cd'ing into the appropriate directory, and running `ies -S mix`. This will compile the program within Interactive Elixir, and you can play with it like so:
+1. Cloning this repository to your machine, cd'ing into the appropriate directory, and running `iex -S mix`. This will compile the program within Interactive Elixir, and you can play with it like so:
 
 ```shell
 

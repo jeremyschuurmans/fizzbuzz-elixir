@@ -13,4 +13,8 @@ defmodule FizzbuzzTest do
   test "it returns 'FizzBuzz' when passed a number divisible by both 3 and 5" do
     assert Fizzbuzz.fizz(15) == "FizzBuzz"
   end
+
+  test "it returns ~s(That's not divisible by 3 or 5. Try another number!) when passed a number divisible by neither" do
+    assert Fizzbuzz.fizz(2) == "That's not divisible by 3 or 5. Try another number!"
+  end
 end

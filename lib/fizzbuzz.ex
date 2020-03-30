@@ -7,6 +7,7 @@ defmodule Fizzbuzz do
         "Fizz"
       rem(number, 5) == 0 ->
         "Buzz"
+      true -> "That's not divisible by 3 or 5. Try another number!"
     end
   end
 end
